@@ -359,7 +359,7 @@ function App() {
 					<div className={style["footer-info"]}>
 						<div>
 							<h3>Satyam Savita</h3>
-							<p>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
+							<p>A Frontend focused Web Developer building the Frontend of Websites , Web Applications that leads to the success of the overall product</p>
 						</div>
 						<div className={style.social}>
 							<h3>Social</h3>
