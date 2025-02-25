@@ -12,7 +12,7 @@ import { FaBootstrap } from "react-icons/fa";
 import { TbBrandRedux } from "react-icons/tb";
 // import Loader from '../common/components/Loader/Loader';
 import { SiPostman } from "react-icons/si";
-import Resume from '../assets/files/resume.pdf';
+import Resume from '../assets/files/Resume.pdf';
 
 // import icons
 import { FaReact } from "react-icons/fa";
