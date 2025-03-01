@@ -682,7 +682,7 @@
 .project {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 100px;
+    grid-gap: 80px;
 }
 
 .project-image>img {

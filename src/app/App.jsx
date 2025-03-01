@@ -24,9 +24,11 @@ import { IoLogoNodejs } from "react-icons/io5";
 import { FaMobileAlt } from "react-icons/fa";
 import { RiSendPlaneFill } from "react-icons/ri";
 import Net from '../assets/images/netflix-7408710_1280.webp';
-// import todo from '../assets/images/todo-list.png';
+import todo from '../assets/images/todo.png';
+
+ 
 import books from '../assets/images/books-7479152_1280.png';
-// import book from '../assets/images/book.png';
+ 
 import style from './App.module.css';
 import clsx from 'clsx';
 
@@ -102,27 +104,28 @@ const skills = [
 
 const projects = [
 	{
+		name: 'Todo List',
+		link: 'https://storethetodos.netlify.app/',
+		github: 'https://github.com/Satyam5206',
+		description: 'This Netflix web clone is a fully responsive and visually engaging frontend project, replicating the sleek UI and user experience of the original platform. Built with modern web technologies, it features smooth navigation, dynamic content display, and an intuitive design optimized for all devices. This project highlights my expertise in frontend development, focusing on clean UI/UX, responsive layouts, and interactive elements.',
+		image: todo
+	},
+	{
 		name: 'Netflix',
-		// link: 'https://ibrahimhiarea.github.io/Global-Share/#/home',
+		link: 'https://67c1da612617b728d5f6162e--moviesorwebseries.netlify.app/',
 		github: 'https://github.com/Satyam5206',
 		description: 'This Netflix web clone is a fully responsive and visually engaging frontend project, replicating the sleek UI and user experience of the original platform. Built with modern web technologies, it features smooth navigation, dynamic content display, and an intuitive design optimized for all devices. This project highlights my expertise in frontend development, focusing on clean UI/UX, responsive layouts, and interactive elements.',
 		image: Net
 	},
 	{
 		name: `books Store`,
-		// link: 'https://ibrahimhiarea.github.io/Ataa-Dashboard/',
+		link: '',
 		github: 'https://github.com/Satyam5206',
 		description: "Discover a world of literature at your fingertips! Our online bookstore offers an extensive collection of books across all genres, ensuring that every reader finds something they love. From bestsellers and timeless classics to hidden gems and niche titles, we have it all. Enjoy easy navigation, personalized recommendations, and exclusive deals that make your shopping experience delightful. Whether you’re looking for your next great read or a special gift, our bookstore is your ultimate destination for all things books. Start your literary journey with us today! Happy reading!",
 		image: books,
 		
 	}
-	// {
-	// 	name: 'Netflix',
-	// 	link: 'https://ibrahimhiarea.github.io/Soko-Number/',
-	// 	github: 'https://github.com/IbrahimHiarea/Soko-Number',
-	// 	description: 'Soko Number is a puzzle game built with the React framework. The game consists of 6 challenging levels that will test your problem-solving skills. Each level presents a grid-based puzzle where you need to move numbered tiles to their designated positions.',
-	// 	image: book
-	// },
+ 
  
 ]
 

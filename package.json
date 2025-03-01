@@ -7,9 +7,8 @@
     "dev": "vite --host",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "homepage": "https://Satyam5206.github.io/portfolio/"
-  },
+    "preview": "vite preview"
+   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "clsx": "^2.0.0",
